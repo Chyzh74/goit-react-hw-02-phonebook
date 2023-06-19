@@ -21,10 +21,17 @@ export const Section = styled.section`
 `;
 
 export const Heading = styled.h2`
-    margin-bottom: 16px;
-    text-align: center;
-    color: rgb(6, 58, 54);
-    text-shadow: rgb(255, 255, 255) 0px 1px 1px;
-    font-size: 26px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: rgb(6, 58, 54);
+  text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+  font-size: 26px;
 `;
 
+export const Title = styled.h2`
+  text-align: center;
+  margin-bottom: 0;
+  color: rgb(6, 58, 54);
+  text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+  font-size: 26px;
+`;

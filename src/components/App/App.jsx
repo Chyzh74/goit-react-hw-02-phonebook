@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Container, Section, Heading } from './App.styled';
+import { Container, Section, Heading, Title } from './App.styled';
 import { nanoid } from 'nanoid';
 import Notiflix from 'notiflix';
 import { Filter } from 'components/Filter/Filter';
@@ -67,6 +67,7 @@ export class App extends Component {
           <Form createContact={this.createContact}></Form>
 
           <Filter value={filter} onFilter={this.onFilter}></Filter>
+          <Title>Contacts</Title>
           <Contacts
             contacts={filterContact}
             onDeleteContact={this.removeContact}
