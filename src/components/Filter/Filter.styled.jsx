@@ -10,6 +10,7 @@ export const FilterInput = styled.input`
   border: 0px;
   outline: 0px;
   border-radius: 4px;
+  
   color: rgb(6, 58, 54);
   background-color: rgb(247, 255, 250);
   box-shadow: rgb(139, 167, 147) 1px 1px 3px inset,

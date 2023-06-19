@@ -10,7 +10,7 @@ export function Filter({ value, onFilter }) {
         name="filter"
         value={value}
         onChange={onFilter}
-        placeholder="name"
+        placeholder="Name"
       />
     </FilterLabel>
   );
